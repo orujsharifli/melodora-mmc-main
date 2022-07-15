@@ -1,0 +1,890 @@
+/* Mobile devices */
+@media (max-width: 480px) {
+
+  /* Header and nav */
+  .header-nav {
+    width: 90%;
+  }
+
+  /* Header */
+  .header a {
+    font-size: 14px;
+  }
+
+  .header img {
+    height: 16px;
+  }
+
+  .social-medias {
+    gap: 15px;
+  }
+
+  /* Logo */
+  .main-logo {
+    width: 105px;
+  }
+
+  /* Nav menu */
+  .nav {
+    display: none;
+  }
+
+  /* Hamburger icon */
+  .menu-icon {
+    display: flex;
+  }
+
+  /* Main area */
+  .main {
+    height: 350px;
+  }
+
+  .category-wr {
+    background: var(--white);
+  }
+
+  /* Category slider */
+  .category-slider {
+    width: 80%;
+  }
+
+  /* Container */
+  .container-wr {
+    padding: 0;
+    padding-bottom: 50px;
+  }
+
+  .container {
+    width: 90%;
+    gap: 45px;
+  }
+
+  /* Container image */
+  .container-img {
+    width: 100%;
+  }
+
+  /* Container text */
+  .container-text {
+    width: 100%;
+    gap: 20px;
+  }
+
+  /* Leaf break */
+  .container-text .leaf-break {
+    width: 100%;
+  }
+
+  /* Container footer boxes */
+  .content-footer {
+    flex-direction: column;
+    justify-content: center;
+    gap: 50px;
+  }
+
+  /* Content wr */
+  .content-wr {
+    padding-top: 45px;
+    padding-bottom: 25px;
+  }
+
+  .content {
+    width: 90%;
+  }
+
+  .content-title h2 {
+    font-size: 26px;
+  }
+
+  /* Garden boxes */
+  .garden-boxes {
+    justify-content: center;
+    gap: 50px;
+  }
+
+  .garden-box:nth-child(2) {
+    flex-direction: column;
+  }
+
+  /* Blog slider */
+  .blog-slider {
+    width: 80%;
+  }
+
+  /* Footer */
+  .footer {
+    width: 90%;
+  }
+
+  /* First footer */
+  .first-footer {
+    justify-content: center;
+    width: 100%;
+    gap: 50px;
+  }
+
+  /* First footer logo */
+  .first-footer img {
+    width: 170px;
+  }
+
+  /* Footer navigations */
+  .footer-nav-wr {
+    flex-direction: column;
+    gap: 50px;
+  }
+
+  /* Second footer */
+  .secondary-footer {
+    flex-direction: column;
+    gap: 7.5px;
+  }
+
+  /* FINISH HOME PAGE */
+
+  /* ----------------------------- */
+
+  /* PAGES */
+  /* Page main */
+  #page-main {
+    height: 350px;
+  }
+
+  /* Page container */
+  #page-container {
+    padding-top: 50px;
+  }
+
+  #page-about .container {
+    flex-direction: column-reverse;
+  }
+
+  /* Page heading */
+  .page-heading {
+    align-self: center;
+    font-size: 33px;
+  }
+
+  /* Gallery slider */
+  .gallery-slider {
+    width: 85%;
+  }
+
+  /* Page headering pattern */
+  .section-pattern.right {
+    display: none;
+  }
+
+  .section-pattern.left {
+    display: none;
+  }
+
+  /* Services content */
+  .services-box,
+  .services-box:nth-child(2) {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .services-box:nth-child(2) img {
+    align-self: center;
+  }
+
+  .services-box:nth-child(2) h2,
+  .services-box:nth-child(2) p {
+    text-align: center;
+  }
+
+  /* Services text */
+  .services-text {
+    width: fit-content;
+    align-items: center;
+    text-align: center;
+  }
+
+  .services-text img {
+    height: 80px;
+  }
+
+  .services-img {
+    width: 100%;
+  }
+
+  /* Social responsibility text */
+  .social-responsibility-text {
+    width: 100%;
+    padding-top: 0;
+  }
+
+  /* Contact */
+  .contact {
+    gap: 110px;
+  }
+
+  /* Contact boxes */
+  .contact-boxes {
+    width: 100%;
+    gap: 90px;
+  }
+
+  /* Contact box */
+  .contact-box {
+    width: 100%;
+    height: 250px;
+  }
+
+  .contact-box-img {
+    bottom: 175px;
+  }
+
+  .contact-box-text {
+    font-size: 18px;
+    align-self: center;
+    text-align: center;
+    padding: 40px 0 0 0;
+  }
+
+  /* Page footer */
+  #page-footer {
+    padding-top: 20px;
+  }
+}
+
+/* iPads, Tablets */
+@media (min-width: 481px) and (max-width: 768px) {
+
+  /* Header and nav */
+  .header-nav {
+    width: 90%;
+  }
+
+  /* Header */
+  .header a {
+    font-size: 14px;
+  }
+
+  .header img {
+    height: 16px;
+  }
+
+  .social-medias {
+    gap: 15px;
+  }
+
+  /* Logo */
+  .main-logo {
+    width: 105px;
+  }
+
+  /* Nav menu */
+  .nav {
+    display: none;
+  }
+
+  /* Hamburger icon */
+  .menu-icon {
+    display: flex;
+  }
+
+  /* Main area */
+  .main {
+    height: 400px;
+  }
+
+  /* Category wr */
+  .category-wr {
+    background: var(--white);
+  }
+
+  /* Category slider */
+  .category-slider {
+    width: 80%;
+  }
+
+  /* Container */
+  .container-wr {
+    padding: 0;
+    padding-bottom: 50px;
+  }
+
+  .container {
+    width: 90%;
+    gap: 45px;
+  }
+
+  /* Container text */
+  .container-text {
+    width: 100%;
+    gap: 20px;
+  }
+
+  /* Leaf break */
+  .container-text .leaf-break {
+    width: 100%;
+  }
+
+  /* Content wr */
+  .content-wr {
+    padding-top: 45px;
+    padding-bottom: 25px;
+  }
+
+  .content {
+    width: 90%;
+  }
+
+  .content-title h2 {
+    font-size: 26px;
+  }
+
+  /* Garden boxes */
+  .garden-boxes {
+    gap: 50px;
+  }
+
+  .garden-box:nth-child(2) {
+    flex-direction: column;
+  }
+
+  /* Blog slider */
+  .blog-slider {
+    width: 80%;
+  }
+
+  /* Footer */
+  .footer {
+    width: 90%;
+  }
+
+  /* First footer */
+  .first-footer {
+    justify-content: center;
+    width: 100%;
+    gap: 50px;
+  }
+
+  /* First footer logo */
+  .first-footer img {
+    width: 170px;
+  }
+
+  /* Footer navigations */
+  .footer-nav-wr {
+    gap: 50px;
+  }
+
+  /* FINISH HOME PAGE */
+
+  /* ----------------------------- */
+
+  /* PAGES */
+  /* Page main */
+  #page-main {
+    height: 400px;
+  }
+
+  /* Page container */
+  #page-container {
+    padding-top: 50px;
+  }
+
+  #page-about .container {
+    flex-direction: column-reverse;
+  }
+
+  /* Page heading */
+  .page-heading {
+    align-self: center;
+    font-size: 33px;
+  }
+
+  .gallery-slider {
+    width: 95%;
+  }
+
+  /* Page headering pattern */
+  .section-pattern.right {
+    display: none;
+  }
+
+  .section-pattern.left {
+    display: none;
+  }
+
+  /* Services content */
+  .services-box,
+  .services-box:nth-child(2) {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .services-box:nth-child(2) img {
+    align-self: center;
+  }
+
+  .services-box:nth-child(2) h2,
+  .services-box:nth-child(2) p {
+    text-align: center;
+  }
+
+  .services-text {
+    width: 100%;
+    align-items: center;
+    text-align: center;
+  }
+
+  .services-text img {
+    height: 80px;
+  }
+
+  .services-img {
+    width: 100%;
+  }
+
+  /* Social responsibility */
+  .social-responsibility-text {
+    width: 100%;
+    padding-top: 0;
+  }
+
+  /* Contact */
+  .contact {
+    gap: 110px;
+  }
+
+  /* Contact boxes */
+  .contact-boxes {
+    width: 360px;
+    gap: 120px;
+  }
+
+  /* Contact box */
+  .contact-box {
+    width: 100%;
+  }
+
+  .contact-box-img {
+    bottom: 175px;
+  }
+
+  .contact-box-text {
+    font-size: 18px;
+    align-self: center;
+    text-align: center;
+    padding: 40px 0 0 0;
+  }
+}
+
+/* Small screens, Laptops */
+@media (min-width: 769px) and (max-width: 1024px) {
+
+  /* Header and nav */
+  .header-nav {
+    width: 90%;
+  }
+
+  /* Header */
+  .header a {
+    font-size: 14px;
+  }
+
+  .header img {
+    height: 16px;
+  }
+
+  .social-medias {
+    gap: 15px;
+  }
+
+  /* Logo */
+  .main-logo {
+    width: 105px;
+  }
+
+  /* Nav menu */
+  .nav {
+    display: none;
+  }
+
+  /* Hamburger icon */
+  .menu-icon {
+    display: flex;
+  }
+
+  /* Main area */
+  .main {
+    height: 450px;
+  }
+
+  .category-wr {
+    background: var(--white);
+  }
+
+  /* Category slider */
+  .category-slider {
+    width: 80%;
+  }
+
+  /* Container */
+  .container-wr {
+    padding: 0;
+    padding-bottom: 50px;
+  }
+
+  .container {
+    width: 720px;
+  }
+
+  /* Container image */
+  .container-img {
+    width: 100%;
+  }
+
+  /* Container text */
+  .container-text {
+    width: 100%;
+  }
+
+  /* Leaf break */
+  .container-text .leaf-break {
+    width: 100%;
+  }
+
+  /* Content wr */
+  .content-wr {
+    padding-top: 45px;
+    padding-bottom: 25px;
+  }
+
+  .content {
+    width: 720px;
+  }
+
+  .content-title h2 {
+    font-size: 26px;
+  }
+
+  /* Garden boxes */
+  .garden-boxes {
+    gap: 70px;
+  }
+
+  .garden-box:nth-child(2) {
+    flex-direction: column;
+  }
+
+  /* Blog slider */
+  .blog-slider {
+    width: 100%;
+  }
+
+  /* Footer */
+  .footer {
+    width: 90%;
+  }
+
+  /* First footer logo */
+  .first-footer img {
+    width: 170px;
+  }
+
+  /* Footer navigations */
+  .footer-nav-wr {
+    gap: 50px;
+  }
+
+  /* FINISH HOME PAGE */
+
+  /* ----------------------------- */
+
+  /* PAGES */
+  /* Page main */
+  #page-main {
+    height: 450px;
+  }
+
+  /* Page container */
+  #page-container {
+    padding-top: 50px;
+  }
+
+  #page-container .container {
+    flex-direction: column-reverse;
+  }
+
+  /* Page heading */
+  .page-heading {
+    align-self: center;
+    font-size: 33px;
+  }
+
+  /* Gallery slider */
+  .gallery-slider {
+    width: 100%;
+  }
+
+  /* Page headering pattern */
+  .section-pattern.right {
+    display: none;
+  }
+
+  .section-pattern.left {
+    display: none;
+  }
+
+  /* Services content */
+  .services-box,
+  .services-box:nth-child(2) {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .services-box:nth-child(2) img {
+    align-self: center;
+  }
+
+  .services-box:nth-child(2) h2,
+  .services-box:nth-child(2) p {
+    text-align: center;
+  }
+
+  .services-text {
+    width: 100%;
+    align-items: center;
+    text-align: center;
+  }
+
+  .services-text img {
+    height: 80px;
+  }
+
+  .services-img {
+    width: 100%;
+  }
+
+  /* Social responsibility */
+  .social-responsibility-text {
+    padding-top: 0;
+    width: 100%;
+  }
+
+  /* Contact */
+  .contact {
+    gap: 110px;
+  }
+
+  /* Contact boxes */
+  .contact-boxes {
+    width: 380px;
+    gap: 120px;
+  }
+
+  /* Contact box */
+  .contact-box {
+    width: 100%;
+  }
+
+  .contact-box-img {
+    bottom: 175px;
+  }
+
+  .contact-box-text {
+    font-size: 18px;
+    align-self: center;
+    text-align: center;
+    padding: 40px 0 0 0;
+  }
+}
+
+/* Desktops */
+@media (min-width: 1025px) and (max-width: 1200px) {
+
+  /* Body */
+  body {
+    font-size: 15px;
+  }
+
+  /* Header and nav */
+  .header-nav {
+    width: 90%;
+  }
+
+  /* Main */
+  .main {
+    height: 500px;
+  }
+
+  /* Category slider */
+  .category-slider {
+    width: 900px;
+  }
+
+  /* Slider buttons */
+  .slick-prev,
+  .slick-next {
+    display: none;
+  }
+
+  /* Container text */
+  .container-text {
+    width: 470px;
+  }
+
+  /* Leaf break */
+  .container-text .leaf-break {
+    width: 100%;
+  }
+
+  /* Container footer boxes */
+  .content-footer {
+    width: 80%;
+  }
+
+  /* Content */
+  .content {
+    width: 920px;
+  }
+
+  /* Blog slider */
+  .blog-slider {
+    width: 100%;
+  }
+
+  /* Gallery slider */
+  .gallery-slider {
+    width: 920px;
+  }
+
+  /* Footer */
+  .footer {
+    width: 90%;
+  }
+
+  /* FINISH HOME PAGE */
+
+  /* ----------------------------- */
+
+  /* PAGES */
+  /* Page main */
+  #page-main {
+    height: 500px;
+  }
+
+  /* Page heading */
+  .page-heading {
+    align-self: center;
+  }
+
+  /* Services text */
+  .services-text {
+    width: 440px;
+  }
+
+  /* Services image */
+  .services-img {
+    width: 450px;
+    aspect-ratio: 9/8;
+  }
+
+  /* Social-responsibility-text */
+  .social-responsibility-text {
+    width: 920px;
+  }
+
+  /* Contact boxes */
+  .contact-boxes {
+    gap: 75px;
+  }
+}
+
+/* Large screens */
+@media (min-width: 1201px) and (max-width: 1535px) {
+
+  /* Body */
+  body {
+    font-size: 15px;
+  }
+
+  .header-nav {
+    width: 85%;
+  }
+
+  /* Main */
+  .main {
+    height: 550px;
+  }
+
+  /* Category slider */
+  .category-slider {
+    width: 1000px;
+  }
+
+  /* Slider buttons */
+  .slick-prev,
+  .slick-next {
+    display: none;
+  }
+
+  /* Container text */
+  .container-text {
+    width: 710px;
+  }
+
+  /* Garden boxes */
+  .garden-boxes {
+    gap: 100px;
+  }
+
+  /* Products box wr */
+  .products-box-wr {
+    gap: 65px;
+  }
+
+  /* Blog slider */
+  .blog-slider {
+    width: 1160px;
+  }
+
+  /* Footer */
+  .footer {
+    width: 1050px;
+  }
+
+  /* FINISH HOME PAGE */
+
+  /* ----------------------------- */
+
+  /* PAGES */
+  /* Page main */
+  #page-main {
+    height: 500px;
+  }
+
+  /* Gallery slider */
+  .gallery-slider {
+    width: 1160px;
+  }
+
+  .services-box {
+    gap: 50px;
+  }
+
+  .services-text {
+    width: 555px;
+  }
+
+  /* Social responsibility text */
+  .social-responsibility-text {
+    width: 1160px;
+  }
+
+  /* Contact boxes */
+  .contact-boxes {
+    gap: 47.5px;
+  }
+
+  /* Contact box */
+  .contact-box {
+    width: 355px;
+  }
+}
